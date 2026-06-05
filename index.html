@@ -1,0 +1,284 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CYBER-X | The Future Is Here</title><link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&display=swap" rel="stylesheet"><style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Orbitron',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#050505;
+color:white;
+overflow-x:hidden;
+}
+
+body::before{
+content:'';
+position:fixed;
+width:100%;
+height:100%;
+background:
+radial-gradient(circle at 20% 20%,rgba(0,255,255,.15),transparent 25%),
+radial-gradient(circle at 80% 60%,rgba(123,45,255,.15),transparent 25%);
+z-index:-1;
+}
+
+nav{
+position:fixed;
+width:100%;
+top:0;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+border-bottom:1px solid rgba(255,255,255,.1);
+z-index:1000;
+}
+
+.logo{
+font-size:1.5rem;
+font-weight:800;
+color:#00f5ff;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+transition:.3s;
+}
+
+nav a:hover{
+color:#00f5ff;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:100px 10%;
+}
+
+.hero h1{
+font-size:4rem;
+line-height:1.2;
+}
+
+.hero span{
+color:#00f5ff;
+text-shadow:0 0 20px #00f5ff;
+}
+
+.hero p{
+margin-top:20px;
+font-size:1rem;
+max-width:700px;
+margin-inline:auto;
+color:#ccc;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 35px;
+background:#00f5ff;
+color:black;
+font-weight:bold;
+border-radius:50px;
+text-decoration:none;
+transition:.4s;
+box-shadow:0 0 20px #00f5ff;
+}
+
+.btn:hover{
+transform:translateY(-5px);
+box-shadow:0 0 40px #00f5ff;
+}
+
+section{
+padding:100px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:2.5rem;
+margin-bottom:60px;
+color:#00f5ff;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(10px);
+border:1px solid rgba(255,255,255,.1);
+padding:30px;
+border-radius:20px;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 30px rgba(0,245,255,.4);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#00f5ff;
+}
+
+.about{
+text-align:center;
+max-width:900px;
+margin:auto;
+line-height:1.8;
+color:#ccc;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+text-align:center;
+}
+
+.stat{
+background:rgba(255,255,255,.05);
+padding:40px;
+border-radius:20px;
+}
+
+.stat h2{
+color:#00f5ff;
+font-size:2rem;
+margin-bottom:10px;
+}
+
+.contact{
+max-width:700px;
+margin:auto;
+}
+
+input,textarea{
+width:100%;
+padding:15px;
+margin-bottom:15px;
+background:#111;
+border:1px solid #333;
+color:white;
+border-radius:10px;
+}
+
+button{
+width:100%;
+padding:15px;
+background:#00f5ff;
+border:none;
+font-weight:bold;
+cursor:pointer;
+border-radius:10px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+color:#777;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:2.5rem;
+}
+
+nav ul{
+display:none;
+}
+
+}
+
+</style></head><body><nav>
+<div class="logo">CYBER-X</div><ul>
+<li><a href="#features">Features</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#stats">Stats</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav><section class="hero"><div>
+<h1>WELCOME TO THE <span>CYBORG ERA</span></h1><p id="typing"></p><a href="#features" class="btn">Explore Future</a>
+
+</div></section><section id="features"><h2 class="section-title">Advanced Features</h2><div class="cards"><div class="card">
+<h3>Neural Interface</h3>
+<p>Direct brain-to-machine communication powered by next-generation AI.</p>
+</div><div class="card">
+<h3>Quantum Processing</h3>
+<p>Lightning-fast computation beyond traditional limits.</p>
+</div><div class="card">
+<h3>Cyber Security</h3>
+<p>Military-grade protection for future digital ecosystems.</p>
+</div><div class="card">
+<h3>AI Intelligence</h3>
+<p>Autonomous systems capable of human-level reasoning.</p>
+</div></div></section><section id="about"><h2 class="section-title">About The Future</h2><div class="about">The Cyborg Revolution combines artificial intelligence, advanced robotics,
+neural computing, and human augmentation technologies to create a smarter,
+more connected future. Our mission is to bridge the gap between human
+potential and machine precision.
+
+</div></section><section id="stats"><h2 class="section-title">System Statistics</h2><div class="stats"><div class="stat">
+<h2>99.9%</h2>
+<p>Processing Accuracy</p>
+</div><div class="stat">
+<h2>10M+</h2>
+<p>Neural Connections</p>
+</div><div class="stat">
+<h2>500+</h2>
+<p>AI Modules</p>
+</div><div class="stat">
+<h2>24/7</h2>
+<p>Machine Learning</p>
+</div></div></section><section id="contact"><h2 class="section-title">Connect</h2><div class="contact"><input type="text" placeholder="Your Name">
+<input type="email" placeholder="Email Address">
+<textarea rows="5" placeholder="Message"></textarea><button>Transmit Message</button>
+
+</div></section><footer>
+© 2026 CYBER-X | Human + Machine Evolution
+</footer><script>
+
+const text =
+"Artificial Intelligence • Robotics • Neural Computing • Human Augmentation";
+
+let i = 0;
+
+function typingEffect(){
+
+if(i < text.length){
+document.getElementById("typing").innerHTML += text.charAt(i);
+i++;
+setTimeout(typingEffect,50);
+}
+
+}
+
+typingEffect();
+
+</script></body>
+</html>
